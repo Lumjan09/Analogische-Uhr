@@ -1,0 +1,132 @@
+/* Die Uhr */
+body {
+  background-color: aliceblue;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgb(60, 66, 132);
+
+  margin-left: calc(50% - 100px);
+  margin-top: 15%;
+
+  position: relative;     /* Wichtig für Uhrzeiger */
+}
+
+/* Gemeinsame Eigenschaften aller Zeiger */
+.hand {
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 50%;
+  transform: rotate(90deg);
+  border-radius: 2px;
+}
+
+/* Stundenzeiger */
+.hour-hand {
+  width: 30%;
+  height: 6px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Minutenzeiger */
+.min-hand {
+  width: 40%;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Sekundenzeiger */
+.second-hand {
+  width: 45%;
+  height: 2px;
+  background-color: rgb(162, 89, 89);
+}
+
+
+/* Die Uhr (bestehender Code) */
+body {
+  background-color: aliceblue;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgb(60, 66, 132);
+  margin-left: calc(50% - 100px);
+  margin-top: 15%;
+  position: relative;     /* Wichtig für Uhrzeiger */
+}
+
+/* Gemeinsame Eigenschaften aller Zeiger */
+.hand {
+  position: absolute;
+  width: 50%;
+  height: 4px;
+  background-color: black;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0% 50%;
+  transform: rotate(90deg);
+  border-radius: 2px;
+}
+
+/* Stundenzeiger */
+.hour-hand {
+  width: 30%;
+  height: 6px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Minutenzeiger */
+.min-hand {
+  width: 40%;
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Sekundenzeiger */
+.second-hand {
+  width: 45%;
+  height: 2px;
+  background-color: rgb(162, 89, 89);
+}
+
+
+
+/* Basis für alle Markierungen */
+.marking {
+  position: absolute;
+  width: 4px;           /* Breite */
+  height: 12px;         /* Länge */
+  background-color: black;
+  top: 94%;             /* Mittelpunkt der Uhr */
+  left: 49%;            /* Mittelpunkt der Uhr */
+  transform-origin: center -88px; /* Drehpunkt nach oben zum Rand */
+  border-radius: 2px;
+}
+
+/* Oben (12 Uhr) */
+.marking-one {
+  transform: rotate(0deg);
+}
+
+/* Rechts (3 Uhr) */
+.marking-two {
+  transform: rotate(90deg);
+}
+
+/* Unten (6 Uhr) */
+.marking-three {
+  transform: rotate(180deg);
+}
+
+/* Links (9 Uhr) */
+.marking-four {
+  transform: rotate(270deg);
+}
