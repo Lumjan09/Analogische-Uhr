@@ -1,2 +1,14 @@
-"# Analogische-Uhr" 
-Dieses Projekt zeigt eine funktionierende analoge Uhr, umgesetzt mit HTML, CSS und JavaScript. Stunden-, Minuten- und Sekundenzeiger bewegen sich entsprechend der aktuellen Zeit. Das Layout ist vollständig über CSS gestaltet, die Zeiger drehen sich um den Mittelpunkt der Uhr, und das Design ist responsiv, sodass die Uhr auf verschiedenen grössen, heisst Handy und viele andere Geräte richtig angezeigt wird. Optional kann die Zeit für die Zeitzone Zürich angezeigt werden. Das HTML bleibt unverändert, alle Funktionen werden über CSS und JavaScript gemacht.
+# Analogische-Uhr" 
+Dieses Projekt zeigt eine **analoge Uhr**, gemacht mit **HTML**, **CSS** und **JavaScript**.
+
+## Beschreibung
+- Die Uhr besitzt **Stunden-, Minuten- und Sekundenzeiger**, die sich entsprechend der aktuellen Zeit bewegen.  
+- Das Layout ist vollständig über **CSS** gestaltet. 
+- Es ist **responsive**
+- Zeit ist synchron mit der, von Zürich
+
+## Technologien
+
+- **HTML**
+- **CSS**
+- **JavaScript**
